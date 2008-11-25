@@ -13,11 +13,14 @@ This plugin fixes a validation problem related with RFC 4685 atom feed extension
 Therefore, this plugin fixes this problem removing the <thr:total> tag without from the atom feed without any hack to wordpress code.
 
 == Installation ==
-1. Copy files to wordpress wp-content/plugins folder.
+The .zip file contains two distinct directory: (a) ep_tools_atom_fix and (b) ep_tools_shared; the first one contains the plugin itself, the second one contains the common framework for all my plugins.
+If you have all ready the ep_tools_shared folder, *don't delete it*, but only copy in it the files enclosed within this plugin.
+ 
+1. Copy the two directories to wordpress wp-content/plugins folder.
 
- 1.1. This plugin is composed by two folders: (a) ep_tools_atom_fix and (b) ep_tools_shared; the first one contains the plugin itself, the second one contains the common framework for all my plugins. If you have all ready the  ep_tools_shared folder, *don't delete it*, but only copy in it the files contained the files enclosed with this plugin.
-
-2. Goto to Plugins page in wordpress and activate the Wordpress EP Tools plugins: (a) "EP_Tools (Eros Pedrini Tools) - Administrative GUI" for the common administrative configuration interface, and (b) "EP_Tools (Eros Pedrini Tools) - Atom Fix" to use the fix
+2. Goto to Plugins page in wordpress and activate the Wordpress EP Tools plugins:
+ (a) "EP_Tools (Eros Pedrini Tools) - Administrative GUI" for the common administrative configuration interface:
+ (b) "EP_Tools (Eros Pedrini Tools) - Atom Fix" to use the fix
 
 3. Once the plugins are activated you will able to turn on (or off) the fix using the configuration interface under the *Manage* page.
 
