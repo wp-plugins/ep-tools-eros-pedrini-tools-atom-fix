@@ -9,8 +9,8 @@ This plugin fixes a validation problem related with RFC 4685 atom feed extension
 
 == Description ==
 
-This plugin fixes a validation problem related with RFC 4685 atom feed extension: some validators (w3c, too) don't like the thr:total extension.
-Therefore, this plugin fixes this problem removing the <thr:total> tag without from the atom feed without any hack to wordpress code.
+This plugin fixes a validation problem related with RFC 4685 atom feed extension: some validators (e.g., w3c) don't like the thr:total extension.
+Therefore, this plugin fixes this problem removing the <thr:total> tag from the atom feed without any hack to wordpress code.
 
 == Installation ==
 The .zip file contains two distinct directory: (a) ep_tools_atom_fix and (b) ep_tools_shared; the first one contains the plugin itself, the second one contains the common framework for all my plugins.
