@@ -28,9 +28,10 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 define( 'EP_TOOLS_SHARED_DIR', dirname(__FILE__) );
 
+require_once(EP_TOOLS_SHARED_DIR . '/ep_tools_plugin_gui_class.php');
 require_once(EP_TOOLS_SHARED_DIR . '/wordpress_pre2.6.inc');
 
-class ep_tools_atom_fix_gui {
+class ep_tools_atom_fix_gui extends ep_tools_plugin_gui_class {
     function ep_tools_atom_fix_gui() {}
     
     function printTitle() {

@@ -4,7 +4,7 @@ Plugin Name: EP_Tools (Eros Pedrini Tools) - Administrative GUI
 Plugin URI: http://www.contezero.net/
 Description: This plugin is the common GUI for manage EP_Tools.
 Author: Eros Pedrini
-Version: 1.0
+Version: 1.1
 Author URI: http://www.contezero.net/
 
 
@@ -77,7 +77,11 @@ class ep_tools__admin_gui {
                     $G->printTitle();
                 echo "</h3>\n";
                 
-                $G->printGUI();
+                if ( method_exists($G, 'checkAvailability') && !$G->checkAvailability() ) {
+                    $G->printAvailabilityError();
+                } else {
+                    $G->printGUI();
+                }
             }
         }
         
