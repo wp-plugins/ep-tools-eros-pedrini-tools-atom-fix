@@ -3,7 +3,7 @@ Contributors: Eros Pedrini
 Tags: atom, feed, fix, RFC, 4685, thr:total
 Requires at least: 2.1
 Tested up to: 2.6
-Stable tag: 1.1.1
+Stable tag: 1.2
 
 This plugin fixes a validation problem related with RFC 4685 atom feed extension.
 
