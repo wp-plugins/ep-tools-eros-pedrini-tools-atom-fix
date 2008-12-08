@@ -22,6 +22,8 @@ this happens because the original plugin was composed (effectively) from two plu
  - and EP_Tools (Eros Pedrini Tools) - Atom Fix that is the true plugin.
 In this new release EP_Tools (Eros Pedrini Tools) - Administrative GUI has been removed in favor of
 EP Tools Plugins GUI) that has the same functionalities (and some others ;) ) and it's a standalone plugin.
+This means that in order to config this plugin you need to download and install EP Tools Plugins GUI before.
+You can find this plugin here: http://wordpress.org/extend/plugins/ep-tools-eros-pedrini-tools-gui/
 
 In order to install this plugin, please follow the next steps:
  1. remove EP_Tools (Eros Pedrini Tools) - Atom Fix, if it is installed;
