@@ -26,11 +26,12 @@ This means that in order to config this plugin you need to download and install 
 You can find this plugin here: http://wordpress.org/extend/plugins/ep-tools-eros-pedrini-tools-gui/
 
 In order to install this plugin, please follow the next steps:
- 1. remove EP_Tools (Eros Pedrini Tools) - Atom Fix, if it is installed;
- 2. remove EP_Tools (Eros Pedrini Tools) - Administrative GUI, if it is installed and if its version is below 1.3;
- 3. copy the ep-tools-eros-pedrini-tools-atom-fix folder in the WordPressfolder wp-content/plugins;
- 4. active the plugin from the WordPress plugin interfece;
- 5. configure the plugin using the interface under the Manage page in WordPress Administration.
+ 1.  remove EP_Tools (Eros Pedrini Tools) - Atom Fix, if it is installed;
+ 2. remove EP_Tools (Eros Pedrini Tools) - Administrative GUI;
+ 3. install EP Tools (Eros Pedrini Tools) - Plugins GUI (if it has not been yet installed);
+ 4. copy the ep-tools-eros-pedrini-tools-atom-fix folder in the WordPress folder wp-content/plugins;
+ 5. active the plugin from the WordPress plugin interfece;
+ 6. configure the plugin using the interface under the Manage page in WordPress Administration.
 
 == Frequently Asked Questions ==
 
