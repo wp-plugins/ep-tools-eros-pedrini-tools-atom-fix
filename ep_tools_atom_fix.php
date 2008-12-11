@@ -41,7 +41,7 @@ class ep_tools_atom_fix {
         $AtomFixEnabled = get_option('ep_tools_plugin_Atom_Fix_Enable');
         
         if ('true' == $AtomFixEnabled && !$for_comments) {
-            load_template( WP_PLUGIN_DIR . '/ep_tools_atom_fix/ep_tools_feed-atom.php' );
+            load_template( WP_PLUGIN_URL . '/' . plugin_basename(dirname(__FILE__)) . '/ep_tools_feed-atom.php' );
         } else {
             do_feed_atom($for_comments);
         }
