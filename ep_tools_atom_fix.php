@@ -4,7 +4,7 @@ Plugin Name: EP_Tools (Eros Pedrini Tools) - Atom Fix
 Plugin URI: http://www.contezero.net/sites/contezero/index.php/2008/11/24/atom-fix-plugin/
 Description: This plugin fixs a validation problem related with RFC 4685 atom feed (<thr:total> tag)
 Author: Eros Pedrini
-Version: 2.1
+Version: 2.2
 Author URI: http://www.contezero.net/
 
 
@@ -41,7 +41,7 @@ class ep_tools_atom_fix {
         $AtomFixEnabled = get_option('ep_tools_plugin_Atom_Fix_Enable');
         
         if ('true' == $AtomFixEnabled && !$for_comments) {
-            load_template( WP_PLUGIN_URL . '/' . plugin_basename(dirname(__FILE__)) . '/ep_tools_feed-atom.php' );
+            load_template( WP_PLUGIN_DIR . '/' . plugin_basename(dirname(__FILE__)) . '/ep_tools_feed-atom.php' );
         } else {
             do_feed_atom($for_comments);
         }
